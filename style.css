@@ -140,6 +140,7 @@ body {
 }
 
 .photo-container {
+	
     scroll-snap-align: start;
     flex: 0 0 auto;
     width: 300px; /* Adjust the width to your desired size */
@@ -172,16 +173,20 @@ body {
 	width: 100%;
 	height: 100%;
   }
+
+
+
+
+
+.brown-box-qr {
+	display: flex;
+	justify-content: center; /* Horizontal centering */
+	align-items: center; /* Vertical centering */
+  }
+  
   .photo-container-qr {
-    display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
-    width: 200px; /* Set the width to your desired size */
-    height: 200px; /* Set the height to your desired size */
-    border-radius: 10px; /* Add rounded corners for a softer look */
-    overflow: hidden; /* Hide any overflow content within the container */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
-}
+	text-align: center; /* Center the image */
+  }
 
 
 
