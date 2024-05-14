@@ -1,0 +1,16 @@
+// script.js
+let likeCount = 0;
+let isLiked = false;
+
+// Function to handle like button click
+function like() {
+  if (!isLiked) {
+    likeCount++;
+    document.getElementById("likeCount").textContent = likeCount;
+    isLiked = true;
+    document.getElementById("likeButton").disabled = true; // Disable the button after it's been clicked
+  }
+}
+
+// Add event listener to the like button
+document.getElementById("likeButton").addEventListener("click", like);
