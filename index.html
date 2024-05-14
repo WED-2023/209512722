@@ -4,15 +4,24 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+  <style>
+    body {
+      background-color: #FEFCD7; /* White banana color */
+    }
+  </style>
 <div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+  <img src="Photos\The_Simpsons_yellow_logo.svg.png" alt="Icon" class="menu-icon">
+  <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#photos">My Photos</a></li>
+      <li><a href="#playlist">My Playlist</a></li>
+      <li><a href="#like">Like</a></li>
+      <li><a href="#qrcoder">QR Code</a></li>
+      <li><a href="#spa">Q&A</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+  </ul>
 </div>
+
 		  
 <section id="about" class="section">
 <br/>
@@ -172,7 +181,15 @@
 <br/>
 <br/>
 <br/>
-scan my code
+<div class="container">
+  <div class="brown-box">
+    <h2>QR code</h2>
+    <div class="content">
+      <div class="photo-container">
+            <img src="Photos\QrTowebsite.png" alt="Grampa Simpson 1" class="profile-photo">
+          </div>
+    </div>
+  </div>
 <br/>
 <br/>
 <br/>
@@ -195,7 +212,8 @@ scan my code
 <br/>
 <br/>
 <br/>
-ans
+<div class="container">
+</div>
 <br/>
 <br/>
 <br/>
@@ -218,7 +236,28 @@ ans
 <br/>
 <br/>
 <br/>
-contact me
+<div class="container">
+  <div class="brown-box">
+    <h2>Contact Us</h2>
+      <div class="content">
+        <form id="emailForm" action="laufermen@gmail.com" method="post">
+          <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Send Email</button>
+        </form>
+      </div>
+    </div>
+  </div>
 <br/>
 <br/>
 <br/>

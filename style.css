@@ -5,6 +5,97 @@
 	height: 35px;
 	background: white;
 }
+
+#menu {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: #f8f9fa; /* Light gray background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+.menu-icon {
+    height: 30px; /* Adjust the height of the icon */
+    margin-right: 20px; /* Space between icon and menu items */
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#menu ul li {
+    margin-right: 20px; /* Space between menu items */
+}
+
+#menu ul li:last-child {
+    margin-right: 0; /* Remove margin from last item */
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #333; /* Dark gray text color */
+    font-weight: bold;
+    padding: 10px 15px; /* Padding inside each menu item */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+#menu ul li a:hover {
+    background-color: #e9ecef; /* Light gray background on hover */
+    color: #555; /* Darker text color on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: #FEFCD7; /* White banana color */
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #about {
 	padding: 50px 0;
   }
@@ -81,6 +172,75 @@
 	width: 100%;
 	height: 100%;
   }
+  .photo-container-qr {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    width: 200px; /* Set the width to your desired size */
+    height: 200px; /* Set the height to your desired size */
+    border-radius: 10px; /* Add rounded corners for a softer look */
+    overflow: hidden; /* Hide any overflow content within the container */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#emailSection {
+	padding: 50px 0;
+  }
+  
+  #emailForm {
+	max-width: 400px; /* Adjust width as needed */
+	margin: 0 auto;
+  }
+  
+  #emailForm label {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  #emailForm input[type="text"],
+  #emailForm input[type="email"],
+  #emailForm textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  
+  #emailForm textarea {
+	height: 150px; /* Adjust height as needed */
+  }
+  
+  #emailForm button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  #emailForm button:hover {
+	background-color: #45a049;
+  }
+  
   
   
   @media screen and (max-width: 768px) {
