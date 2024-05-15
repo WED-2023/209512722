@@ -14,3 +14,5 @@ function like() {
 
 // Add event listener to the like button
 document.getElementById("likeButton").addEventListener("click", like);
+
+
