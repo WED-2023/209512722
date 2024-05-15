@@ -185,8 +185,14 @@ body {
 	align-items: center; /* Vertical centering */
   }
   
-  .photo-container-qr {
-	text-align: center; /* Center the image */
+.photo-container-qr {
+
+  text-align: center; /* Center the image */
+  
+  }
+.photo-container-qr img {
+    max-width: 300px; /* Adjust the maximum width as needed */
+    max-height: 300px; /* Adjust the maximum height as needed */
   }
 
 
